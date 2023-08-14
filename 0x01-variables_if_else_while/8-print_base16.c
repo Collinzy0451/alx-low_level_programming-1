@@ -23,6 +23,6 @@ c++;
 			putchar(b);
 			b++;
 		}
-	putchar("\n')
+	putchar('\n');
 	return (0);
 }
