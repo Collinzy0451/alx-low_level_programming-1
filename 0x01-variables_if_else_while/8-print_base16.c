@@ -6,15 +6,23 @@
 
 int main(void)
 {
-	int m;
+	char b;
+	int c;
 
-	for (m = 0; m < 10 || m < 'g'; m++)
-	{
-		if (m < 10)
-			putchar(m + '0');
-		else
-			putchar(m);
-	}
-	putchar('\n');
+	b = 'a';
+	c = '0';
+	while
+		(c < 10)
+		{
+			putchar(c + '0');
+c++;
+		}
+	while
+		(b <= 'f')
+		{
+			putchar(b);
+			b++;
+		}
+	putchar("\n')
 	return (0);
 }
