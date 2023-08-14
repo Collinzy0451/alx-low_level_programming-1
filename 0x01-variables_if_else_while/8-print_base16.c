@@ -6,18 +6,23 @@
 
 int main(void)
 {
-	char b;
-	int c;
+	char y;
 
+	int z;
 
-	for (c = 0; c < 10; c++)
+	y = 'a';
+	z = '0';
+	while
+		(z < 10)
 		{
-			putchar(c);
+			putchar (z + '0');
+			z++;
 		}
-
-	for (b = 'a'; b <= 'f'  'b'++)
+	while
+		(y <= 'f')
 		{
-			putchar(b);
+			putchar(y);
+			y++;
 		}
 	putchar('\n');
 	return (0);
