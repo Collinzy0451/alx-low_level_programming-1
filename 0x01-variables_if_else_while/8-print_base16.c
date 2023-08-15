@@ -10,20 +10,14 @@ int main(void)
 
 	char t;
 
-	s = 0;
-	t = 'a';
-	while
-		(s <= 9)
-		{
-			putchar(s);
-			s++;
-		}
-	while
-		(t <= 'f')
-		{
-			putchar(t);
-			t++;
-		}
+	for (s = 0; s  <= 9; s++)
+	{
+		putchar((s % 10) + '0');
+	}
+	for (t = 'a'; t <= 'f'; t++)
+	{
+		putchar(t);
+	}
 	putchar('\n');
 	return (0);
 }
