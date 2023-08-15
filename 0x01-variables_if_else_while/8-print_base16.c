@@ -6,15 +6,24 @@
 
 int main(void)
 {
-	int i;
+	int s;
 
-	for (i = 0; i < 10 || i < 'g'; i++)
-	{
-		if (i < 10)
-			putchar(i + '0');
-		else
-			putchar(i);
-	}
+	char t;
+
+	s = 0;
+	t = 'a';
+	while
+		(s <= 9)
+		{
+			putchar(s);
+			s++;
+		}
+	while
+		(t <= 'f')
+		{
+			putchar(t);
+			t++;
+		}
 	putchar('\n');
 	return (0);
 }
