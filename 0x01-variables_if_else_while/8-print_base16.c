@@ -6,24 +6,13 @@
 
 int main(void)
 {
-	char y;
 
-	int z;
+	char hexDigits[] = "0123456789abcdef";
 
-	y = 'a';
-	z = '0';
-	while
-		(z < 10)
-		{
-			putchar (z + '0');
-			z++;
-		}
-	while
-		(y <= 'f')
-		{
-			putchar(y);
-			y++;
-		}
+	for (int i = 0; i < 16; i++)
+	{
+		putchar(hexDigits[i];
+				}
 	putchar('\n');
 	return (0);
 }
