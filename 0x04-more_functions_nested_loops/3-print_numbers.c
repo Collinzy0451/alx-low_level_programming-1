@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * print_numbers - function prints digot from 0-9
+ * print_numbers - function prints diits from 0-9
  *
  * Return: 0
  */
@@ -12,6 +12,6 @@ void print_numbers(void)
 	for (c = 48; c < 58; c++)
 	{
 		_putchar (c);
-		_putchar ('\n');
 	}
+	_putchar('\n')
 }
