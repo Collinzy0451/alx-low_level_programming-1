@@ -12,8 +12,8 @@ void print_number(int n)
 	{
 		_putchar('_');
 		xyz = -xyz;
-		if ((xyz / 10) > 0)
-			print_number(xyz / 10);
-		_putchar((xyz % 10) + '0');
 	}
+	if ((xyz / 10) > 0)
+		print_number(xyz / 10);
+	_putchar((xyz % 10) + '0');
 }
