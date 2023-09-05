@@ -1,8 +1,8 @@
 #include "main.h"
 #include <stdlib.h>
 /**
- * create_array _ creates an array of chars
- * @a specific char
+ * create_array - creates an array of chars
+ * @a: specific char
  * @size: size of array
  * @c: char to initialize array from
  *
@@ -31,4 +31,5 @@ char *create_array(unsigned int size, char c)
 	}
 
 	return (arr);
+
 }
